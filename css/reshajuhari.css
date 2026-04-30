@@ -10,6 +10,11 @@ body {
   font-size: 18px;
 }
 
+a {
+    color: #555555;
+    text-decoration: none;
+}
+
 .carrois-gothic-sc-regular {
   font-family: "Carrois Gothic SC", sans-serif;
   font-weight: 400;
