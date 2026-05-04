@@ -53,7 +53,7 @@
 .intro-text {
     position: absolute;
     top: 50%;
-    left: 60px;
+    left: 250px;
     transform: translateY(-50%);
 
     display: flex;
@@ -95,6 +95,66 @@
     margin-top: 10px;
 }
 
+/* ========================= */
+/* IPAD / TABLET */
+/* ========================= */
+@media (max-width: 1024px) {
+
+    .intro-text {
+        left: 80px;
+    }
+
+    .menu-links {
+        margin-bottom: 40px;
+    }
+
+    .menu-links a {
+        font-size: 15px;
+    }
+
+    .intro-text h1 {
+        font-size: 22px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+@media (max-width: 768px) {
+
+    .intro-text {
+        left: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .menu-links {
+        margin-bottom: 30px;
+        gap: 5px;
+    }
+
+    .menu-links a {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .intro-text h1 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .intro-text p {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+}
+    
+    
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
