@@ -99,6 +99,13 @@ a {
   overflow: hidden;
 }
 
+.intro-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-align: left;
+}
+
 .sidebar {
   flex: 0 0 200px;
 }
