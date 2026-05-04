@@ -27,6 +27,11 @@ a {
   font-style: normal;
 }
 
+.subtitle {
+    position: relative;
+    top: -10px;
+}
+
 .sidebar {
   position: relative;
   top: 0;
